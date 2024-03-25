@@ -1,5 +1,5 @@
 common-code[test] @ git+https://github.com/swiss-ai-center/common-code.git@main
-ultralytics==8.0.137
-Pillow==9.2.0
-numpy==1.24.1
+ultralytics==8.1.34
+pillow==10.2.0
+numpy==1.26.4
 py-cpuinfo==9.0.0

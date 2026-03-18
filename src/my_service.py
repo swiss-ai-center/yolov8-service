@@ -5,7 +5,8 @@ from common_code.service.enums import ServiceStatus
 from common_code.common.enums import FieldDescriptionType, ExecutionUnitTagName, ExecutionUnitTagAcronym
 from common_code.common.models import FieldDescription, ExecutionUnitTag
 from common_code.tasks.models import TaskData
-#Imports required by the service's model
+
+# Imports required by the service's model
 import io
 import os
 import numpy as np
@@ -139,4 +140,3 @@ class MyService(Service):
         )
 
         return {"result": task_data}
-
